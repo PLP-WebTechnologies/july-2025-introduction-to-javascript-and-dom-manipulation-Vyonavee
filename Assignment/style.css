@@ -1,0 +1,52 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f0f8ff;
+  color: #2c3e50;
+  padding: 30px;
+  line-height: 1.6;
+}
+
+h1 {
+  font-family: 'Verdana', sans-serif;
+  color: #2980b9;
+  font-size: 2.5em;
+  text-shadow: 1px 1px 3px #aaa;
+}
+
+p#output {
+  font-family: 'Courier New', monospace;
+  font-size: 1.4em;
+  color: #e74c3c;
+  background-color: #ecf0f1;
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 10px 15px;
+  margin: 10px 5px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+ul#list {
+  list-style-type: square;
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 1.3em;
+  color: #16a085;
+  margin-top: 20px;
+}
+
+li {
+  padding: 5px;
+}
